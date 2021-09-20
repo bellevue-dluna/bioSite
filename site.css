@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img.header-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container-header{
+    overflow: hidden;
+    height: 10vh;
+    width: 100%;
+    object-fit: cover;
+    position:relative;
+
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+
+div {
+    display: block;
+}
+
+
+
+div#right-column {
+    margin-left: 35%;
+    padding-right: 10px;
+}
+
+div#left-column {
+    float: left;
+    width: 30%;
+}
+
+div#wrapper {
+    float: right;
+    width: 100%;
+    margin-left: -30%;
+}
+
+header{
+    background-color: #388F60;
+    float: center;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-flex;
+    color: #0D4F39;
+    text-decoration: none;
+    font-family: "Urbanist", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px 10vw 20px 10vw;
+}
+
+nav a:hover {
+    background-color: #cce7d9;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #0D4F39;
+}
+
+div#top{
+    font-family: "Montserrat", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 6vh;
+    margin-left: 35%;
+}
+
+.left-column{
+    padding-left: 3vw;
+    max-width: fit-content;
+    flex-basis: auto;
+}
+
+.card{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    text-align: center;
+    padding: 10px;
+    background-color: #cce7d9;
+}  
+
+.bio-img img{
+    border: 5px ridge #0D4F39; 
+}
+
+figcaption {
+    text-align: right;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.right-column{
+    border-top: 2px solid #388F60;
+    flex-basis: auto;
+    max-width: 400px;
+}
+
